@@ -3,6 +3,7 @@
   --highlightColor: #2196f3;
 }
 p,
+div,
 h1,
 h2,
 h3,
@@ -11,6 +12,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 ul {
   margin-top: 0;
@@ -318,6 +320,25 @@ fill: #757575;
   margin: 0;
 }
 
+.activitiesThumb{
+  position: relative;
+  display: inline-flex;
+}
+
+
+.activitiesOverlay{
+  position: absolute;
+  bottom: 0px;
+
+
+  width: 100%;
+  padding: 27px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 16.41px;
+  font-size: 14px;
+font-weight: 700;
+  color: #ffffff;
+}
 .team {
   display: flex;
   justify-content: center;
@@ -575,6 +596,46 @@ margin-left: auto;
 
   margin-top: 4px;
 }
+
+.portfolioMenuThumb{
+  position: relative;
+  display: block;
+  padding: 0;
+}
+
+
+.portfolioMenuOverlay{
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: normal;
+  padding: 0 24px;
+height: 100%;
+  width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+  line-height: 28px;
+  
+  letter-spacing: 0.03em;
+  font-size: 18px;
+font-weight: 700;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
 
 /*-----footer-----*/
 
