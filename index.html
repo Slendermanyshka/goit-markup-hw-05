@@ -26,7 +26,7 @@
 
 
                 <ul class="menu-nav list">
-                    <li class="item"><a href="./index.html">Студия</a></li>
+                    <li class="item"><a href="./index.html" class="link current-main">Студия</a></li>
                     <li class="item"><a href="./portfolio.html">Портфолио</a></li>
                     <li class="item"><a href="">Контакты</a></li>
                 </ul>
@@ -56,7 +56,7 @@
         <section class="hat">
             <div class="container hatContainer">
                 <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ</br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="button">
+                <button type="button" data-modal-open>
                     Заказать услугу
                 </button>
             </div>
@@ -151,19 +151,19 @@
                             <div class="activitiesOverlay">
                                 МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ
                             </div>
-            </div>
-            </li>
+                        </div>
+                    </li>
 
-            <li>
-                <div class="activitiesThumb">
-                    <img src="images/box_3.jpg" alt="Обучение дизайну" height="294" width="370" />
-                    <div class="activitiesOverlay">
-                        ДИЗАЙНЕРСКИЕ РЕШЕНИЯ
-                    </div>
-                    </div>
-            </li>
+                    <li>
+                        <div class="activitiesThumb">
+                            <img src="images/box_3.jpg" alt="Обучение дизайну" height="294" width="370" />
+                            <div class="activitiesOverlay">
+                                ДИЗАЙНЕРСКИЕ РЕШЕНИЯ
+                            </div>
+                        </div>
+                    </li>
 
-            </ul>
+                </ul>
             </div>
         </section>
 
@@ -447,6 +447,18 @@
 
         </div>
     </footer>
+
+    <div class="backdrop  is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="btn-open" data-modal-close>
+    x
+            </button>
+        </div>
+    
+    </div>
+
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
